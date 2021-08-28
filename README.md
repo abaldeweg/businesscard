@@ -1,6 +1,6 @@
 # Businesscard
 
-A theme for Hugo, providing you with a simple businesscard.
+A theme for Hugo, providing you with a simple business card.
 
 ## Getting Started
 
