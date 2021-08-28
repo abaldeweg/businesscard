@@ -1,7 +1,7 @@
 name = "Baldeweg Businesscard"
 license = "MIT"
-licenselink = "https://github.com/abaldeweg/businesscard/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/abaldeweg/businesscard/blob/main/LICENSE"
+description = "A theme for Hugo, providing you with a simple businesscard."
 homepage = "https://github.com/abaldeweg/businesscard"
 tags = []
 features = []

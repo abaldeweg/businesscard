@@ -10,6 +10,7 @@ Add the theme
 
 ```shell
 git submodule add https://github.com/abaldeweg/businesscard.git themes/businesscard
+```
 
 Add `theme = 'businesscard'` to your `config.toml`. You can copy the other options from `themes/businesscard/config.toml`.
 
