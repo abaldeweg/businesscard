@@ -1,0 +1,3 @@
+<div class="alert {{ with .Get "class" }}{{ . }}{{end}}">
+  <p>{{ .Inner | markdownify }}</p>
+</div>
