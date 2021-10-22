@@ -2,6 +2,8 @@
 
 A theme for Hugo, providing you with a simple business card.
 
+![Screenshot](screenshot.png)
+
 ## Getting Started
 
 Install Hugo <https://gohugo.io/getting-started/installing/>
