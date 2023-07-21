@@ -1,0 +1,16 @@
+.alert {
+  border-radius: 5px;
+  border-left: 3px solid var(--color-neutral-08);
+  background: var(--color-neutral-02);
+  padding: 20px;
+  margin: 20px 0;
+}
+.alert_error {
+  border-left: 3px solid var(--color-accent-red-10);
+}
+.alert_warning {
+  border-left: 3px solid var(--color-accent-yellow-10);
+}
+.alert_success {
+  border-left: 3px solid var(--color-accent-green-10);
+}
