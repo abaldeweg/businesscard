@@ -8,7 +8,6 @@ menu:
   footer:
     weight: 1
 ---
-
 # Welcome
 
 This page is made for you to introduce yourself or your company, shortly!

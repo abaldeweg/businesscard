@@ -1,0 +1,45 @@
+{
+	"name": "Hugo (Community)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "hugo",
+			"VERSION": "latest",
+			"NODE_VERSION": "16"
+		}
+	},
+
+	"features": {
+	"ghcr.io/EliiseS/devcontainer-features/bash-profile:1": {
+			"command": ". /etc/bash_custom"
+		}
+	},
+
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"html.format.templating": true
+			},
+
+			"extensions": [
+				"bungcip.better-toml",
+				"davidanson.vscode-markdownlint",
+				"mikestead.dotenv",
+				"budparr.language-hugo-vscode",
+				"streetsidesoftware.code-spell-checker",
+				"EditorConfig.EditorConfig",
+				"dbaeumer.vscode-eslint",
+				"streetsidesoftware.code-spell-checker-german",
+				"golang.go",
+				"DavidAnson.vscode-markdownlint",
+				"redhat.vscode-yaml"
+			]
+		}
+	},
+
+	"forwardPorts": [
+		1313
+	],
+
+	"remoteUser": "node"
+}
