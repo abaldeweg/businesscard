@@ -5,13 +5,8 @@ description = "A theme for Hugo, providing you with a simple business card."
 homepage = "https://github.com/abaldeweg/businesscard"
 tags = []
 features = []
-min_version = "0.41.0"
+min_version = "0.115.4"
 
 [author]
   name = "André Baldeweg"
   homepage = "https://github.com/abaldeweg/businesscard"
-
-[original]
-  name = "André Baldeweg"
-  homepage = "https://github.com/abaldeweg/components"
-  repo = "https://github.com/abaldeweg/components.git"
