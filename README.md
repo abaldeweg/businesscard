@@ -20,4 +20,4 @@ There is a template for your first page under `exampleSite/content/_index.md`, w
 
 Start the live server with `hugo server -D`.
 
-Build the site with `hugo -D` and upload the files to your webspace.
+Build the site with `hugo --minify` and upload the files to your webspace.
