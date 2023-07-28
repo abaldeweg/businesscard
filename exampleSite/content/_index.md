@@ -1,7 +1,7 @@
 ---
 title: Home
 date: 2021-08-27T22:56:08+02:00
-draft: true
+draft: false
 menu:
   main:
     weight: 1
