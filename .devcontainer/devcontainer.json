@@ -1,18 +1,18 @@
 {
-	"name": "Hugo (Community)",
+	"name": "baldeweg/businesscard",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
 			"VARIANT": "hugo",
 			"VERSION": "latest",
-			"NODE_VERSION": "16"
+			"NODE_VERSION": "20"
 		}
 	},
 
 	"features": {
-	"ghcr.io/EliiseS/devcontainer-features/bash-profile:1": {
-			"command": ". /etc/bash_custom"
-		}
+    "ghcr.io/EliiseS/devcontainer-features/bash-profile:1": {
+        "command": ". /etc/bash_custom"
+      }
 	},
 
 	"customizations": {
