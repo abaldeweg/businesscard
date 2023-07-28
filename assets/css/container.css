@@ -5,26 +5,29 @@
   margin: auto;
   box-sizing: border-box;
 }
+
 .container::after {
   content: '';
   display: table;
   clear: both;
 }
+
 .container_l {
   width: 100%;
 }
+
 .container_m {
   max-width: 1160px;
 }
+
 .container_s {
   max-width: 600px;
 }
+
 .container_right {
   text-align: right;
 }
+
 .container_center {
   text-align: center;
-}
-.isHighlight {
-  background: var(--color-neutral-02);
 }

@@ -2,10 +2,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 {{- $global := resources.Get "css/global.css" -}}
 {{- $masthead := resources.Get "css/masthead.css" -}}
+{{- $main := resources.Get "css/main.css" -}}
 {{- $container := resources.Get "css/container.css" -}}
 {{- $alert := resources.Get "css/alert.css" -}}
 {{- $nav := resources.Get "css/nav.css" -}}
-{{- $css := slice $global $masthead $container $alert $nav | resources.Concat "css/style.css" -}}
+{{- $css := slice $global $masthead $main $container $alert $nav | resources.Concat "css/style.css" -}}
 {{- with $css | resources.Minify -}}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{- end -}}
