@@ -10,6 +10,7 @@
 {{- with $css | resources.Minify -}}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{- end -}}
+<meta name="view-transition" content="same-origin" />
 <title>
   {{ .Page.Title }} - {{ .Site.Title }}
 </title>
