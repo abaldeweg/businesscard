@@ -32,7 +32,6 @@
 				"golang.go",
 				"DavidAnson.vscode-markdownlint",
 				"redhat.vscode-yaml",
-				"tamasfe.even-better-toml",
 				"donjayamanne.githistory"
 			]
 		}
